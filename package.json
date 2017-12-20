@@ -1,6 +1,6 @@
 {
   "name": "compatible-coordinates",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "author": "Albin Ekblom <albinekblom@gmail.com>",
   "license": "MIT",
