@@ -1,5 +1,15 @@
 # Compatible coordinates
 
+If you ever worked with coordinates on the web you probably know that there's no "standard" way of passing them around to libraries etc.
+
+**Examples that this solves:**
+
+* Google maps wants `{ lat, lng }` and `[latitude, longitude]`
+* SMHI (Swedish weather) wants `{ lat, lon }`
+* [cheap-ruler](https://github.com/mapbox/cheap-ruler#distancea-b) wants `[longitude, latitude]` (reversed!!!!)
+
+Or versose, because tab completion and readability `{ latitude, longitude }`
+
 ## Install
 
 ```sh
