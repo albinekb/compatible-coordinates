@@ -41,3 +41,7 @@ console.log(homeReversed[0]) //=> 18
 
 console.log(homeReversed.longitude) // => 18
 ```
+
+## Credits
+
+[@linusu](https://github.com/linusu) for coming up with this clever but simple solution ⚡️
