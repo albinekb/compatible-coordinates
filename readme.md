@@ -13,7 +13,7 @@ npm install --save compatible-coordinates
 ## Usage
 
 ```js
-const CompatibleCoordinates = require('./')
+const CompatibleCoordinates = require('compatible-coordinates')
 
 const home = new CompatibleCoordinates(59, 18)
 
