@@ -28,3 +28,16 @@ console.log(home[1]) //=> 18
 
 console.log(home) //=> [59, 18]
 ```
+
+### Reversed tuple
+
+For some reason, [cheap-ruler](https://github.com/mapbox/cheap-ruler#distancea-b) expects the coordinates in [longitude, latitude], to reverse the tuple without changing the behaviour of the other properties, you can use **.reversed()**
+
+```js
+const homeReversed = home.reversed()
+
+console.log(home[0]) //=> 59
+console.log(homeReversed[0]) //=> 18
+
+console.log(homeReversed.longitude) // => 18
+```
