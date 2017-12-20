@@ -10,5 +10,11 @@
     "url": "git+https://github.com/albinekb/compatible-coordinates.git",
     "keywords": ["coordinates", "latitude", "longitude", "gps", "position"],
     "author": "albinekb"
+  },
+  "devDependencies": {
+    "readme-assert": "^5.0.6"
+  },
+  "scripts": {
+    "test": "readme-assert"
   }
 }

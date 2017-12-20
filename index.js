@@ -1,6 +1,6 @@
 class Coordinates extends Array {
   constructor(latitude, longitude) {
-    super([latitude, longitude])
+    super(latitude, longitude)
   }
 
   reversed() {
