@@ -1,6 +1,6 @@
 {
   "name": "compatible-coordinates",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "author": "Albin Ekblom <albinekblom@gmail.com>",
   "license": "MIT",
@@ -8,7 +8,13 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/albinekb/compatible-coordinates.git",
-    "keywords": ["coordinates", "latitude", "longitude", "gps", "position"],
+    "keywords": [
+      "coordinates",
+      "latitude",
+      "longitude",
+      "gps",
+      "position"
+    ],
     "author": "albinekb"
   },
   "devDependencies": {
